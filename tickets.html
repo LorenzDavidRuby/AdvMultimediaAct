@@ -8,6 +8,26 @@
     <style type="text/tailwindcss"> @theme { --color-brand: #1e3a8a; /* your 30% color */ --color-accent: #f5b800; /* your 10% color */ --font-display: "Poppins", sans-serif; } </style>        
 </head>
 <body  class="bg-slate-50 text-slate-800 font-sans">
+
+    <header class="bg-slate-900 text-white"> 
+        <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col gap-3 md:flex-row md:items center md:justify-between"> 
+            <a href="#" class="flex items-center gap-3 focus-visible:outline-2 focus visible:outline-yellow-400"> 
+                <img src="images/logo.jpg" alt="Logo for sinulog festival" class="h-10 w-10"> 
+                <span class="text-xl font-bold">Sinulog Festival</span> 
+            </a> 
+            <nav> 
+                <ul class="flex flex-wrap gap-4 text-sm"> 
+                    <li><a href="index.html" data-pass="about" class="hover:text-yellow-400 focus-visible:outline-2 
+                        focus-visible:outline-yellow-400">About the event</a></li> 
+                        <li><a href="index.html#schedule" data-pass="schedule" class="...same classes...">Event schedule</a></li> 
+                        <li><a href="index.html#gallery" data-pass="gallery" class="...same classes...">Photo gallery</a></li> 
+                        <li><a href="tickets.html" class="...same classes...">Register now</a></li> 
+                    </ul> 
+                </nav> 
+            </div> 
+            <img src="images/divider.png" alt="" class="w-full h-1 object-cover"> 
+        </header>
+
     <main>
         <section id="tickets" class="max-w-6xl mx-auto px-6 py-16"> 
             <div class="text-center max-w-2xl mx-auto"> 
